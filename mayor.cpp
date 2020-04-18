@@ -3,19 +3,19 @@
 int main()
 {
 	int a, b;
-	int menor;
+	int mayor;
 	
 	printf("Introduce el primer numero: ");
 	scanf("%d",&a);
 	printf("Introduce el segundo numero: ");
 	scanf("%d",&b);
 	
-	if(a < b)
+	if(a > b)
 	{
-		printf("El primer numero %d es menor que  %d ", a, b);
+		printf("El primer numero %d es mayor que  %d ", a, b);
 	}
 	else{
-		printf("El segundo numero %d es menor que %d ", b, a);
+		printf("El segundo numero %d es mayor que %d ", b, a);
 	}
 	
 	return 0;
